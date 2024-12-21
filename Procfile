@@ -1,1 +1,1 @@
-web: gunicorn hi-world.wsgi
+web: gunicorn hi-world
