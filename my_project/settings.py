@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-1^1ts!6(s2#&vmm3a(ut)ts67u)iec2w_#%lkyjob1j+zqr)ka'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8001-nickocaz-djangoproject-eubmcucv7vs.ws.codeinstitute-ide.net','.herokuapp.com']
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hello_world',
     'about',
+    'catalogue'
 ]
 
 MIDDLEWARE = [
